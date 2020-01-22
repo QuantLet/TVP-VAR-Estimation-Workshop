@@ -3,7 +3,8 @@
 
 % Introduction to Gibbs Sampling
 clc; clear;
-addpath('src');
+addpath('../src');
+addpath('..');
 seed=181219;
 rng(seed);
 % Set number of simulations and burn-in draws

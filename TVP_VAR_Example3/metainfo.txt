@@ -1,0 +1,13 @@
+Name of QuantLet : TVP_VAR_Example3
+
+Published in : 'Haindorf Seminar 2020'
+
+Description : 'S&P500 Monthly Returns, Posterior median of alpha and beta with confidence bands'
+
+Keywords : 'S&P500, monthly returns, apple, Bayesian Estimation, time varying parameters'
+
+See also : 'TVP_VAR_Example1, TVP_VAR_Example2, TVP_VAR_Example4'
+
+Author : 'Mike Ellington'
+
+Submitted : January 22 2020

@@ -1,0 +1,13 @@
+Name of QuantLet : TVP_VAR_Example1
+
+Published in : 'Haindorf Seminar 2020'
+
+Description : 'Monthly Excess Returns of Apple and Market Risk Premium and Posterior distribution of alpha and beta'
+
+Keywords : 'VAR, vector autoregressive, time varying parameter, market risk, risk premium, posterior distribution'
+
+See also : 'TVP_VAR_Example2, TVP_VAR_Example3, TVP_VAR_Example4'
+
+Author : 'Mike Ellington'
+
+Submitted : January 22 2020

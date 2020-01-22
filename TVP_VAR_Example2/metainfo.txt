@@ -1,0 +1,13 @@
+Name of QuantLet : TVP_VAR_Example2
+
+Published in : 'Haindorf Seminar 2020'
+
+Description : 'S&P500 Daily Returns Rt = 100 × ln(Pt/Pt?1) from January 2, 1990 to December 31, 2018'
+
+Keywords : 'S&P500, daily Returns, apple'
+
+See also : 'TVP_VAR_Example1, TVP_VAR_Example3, TVP_VAR_Example4'
+
+Author : 'Mike Ellington'
+
+Submitted : January 22 2020

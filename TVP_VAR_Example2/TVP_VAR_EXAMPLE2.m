@@ -8,7 +8,8 @@ clear; clc;
 seed= 19122019;
 rng(seed);
 %%
-addpath('src');
+addpath('../src');
+addpath('..');
 
 y=xlsread('Example_2_data','Sheet1','C3:C7308');
 Ttrain=500; % training sample

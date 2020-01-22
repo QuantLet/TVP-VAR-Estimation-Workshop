@@ -4,6 +4,7 @@ clear; clc;
 seed=07012020;
 rng(seed);
 %addpath('src')
+addpath('..')
 
 % load data
 data=xlsread('Example_4_data','Sheet1','B2:I1002');

@@ -1,0 +1,13 @@
+Name of QuantLet : TVP_VAR_Example4
+
+Published in : 'Haindorf Seminar 2020'
+
+Description : 'Using predictive regression model QBLL to obtain time-varying betas, and time-varying volatility'
+
+Keywords : 'Time varying parameters, time varying betas, hetero-skedastic, Bayesian, predictive regression, QBLL'
+
+See also : 'TVP_VAR_Example1, TVP_VAR_Example2, TVP_VAR_Example3'
+
+Author : 'Mike Ellington'
+
+Submitted : January 22 2020
