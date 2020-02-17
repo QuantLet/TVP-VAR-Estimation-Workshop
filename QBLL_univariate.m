@@ -16,7 +16,6 @@ e=y-X*b0;
 % each model has a different kappa0 positive definite matrix, we need to
 % define Bcov individually. 
 s2=e'*e/(T-k); % diagonal elements of this are the scale parameter of Gamma distribution.
-%s2=sum(e.^2)/(T-k); % diagonal elements of this are the scale parameter of Gamma distribution.
 % let's call them gamma0;
 
 gamma0=1./diag(s2);
@@ -35,7 +34,8 @@ weights=normker(T,sqrt(T));
 
 betas=zeros(1+k,N,3,T);
 vols=zeros(T,N,3);
-qq=[0.025 0.5 0.975];
+%qq=[0.025 0.5 0.975];
+qq=[0.16 0.5 0.84];
 
 parfor kk=1:N
     kk
@@ -55,7 +55,7 @@ parfor kk=1:N
        BB=bayessv*((X'*diag(w))*yy+k0*b01);
        bayesalpha=a0+sum(w)/2;
        g1=b01'*k0*b01; g2=yy'*diag(w)*yy; g3=BB'*bayesprec*BB;
-       bayesgamma=g0+0.5*(g1+g2-g3)^2;
+       bayesgamma=g0+0.5*(g1+g2-g3);
        for ll=1:nsim
            gam=gamrnd(bayesalpha,1/bayesgamma);
            V1(1,ll)=gam;
